@@ -5,19 +5,75 @@
   display: flex;
   justify-content: space-between;
   position:relative;
+  transition: .3s;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pane:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 .withCover{
-  padding-left:70px;
+  border: none;
+  padding-top: 60%;
+  justify-content: space-between;
+  color: white;
+  transition: .3s;
 }
 
+
 .cover{
-  width:60px;
-  height:100%;
-  background-size:cover;
-  background-position:center;
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:top;
   position:absolute;
   top:0px;
   bottom:0px;
   left:0px;
+  z-index: -1;
+}
+
+.address {
+  color: #999;
+  font-size: 18px;
+  font-weight: 300;
+  padding-left: 5px;
+}
+
+.addressCover {
+  color: white;
+  text-shadow: 0 0 11px rgba(33,33,33,0.5);
+  font-style: italic;
+}
+
+.row {
+  display: inline-flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.eventButton {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  color: white;
+}
+
+#titleDivCover {
+  width: 65%;
+  margin-right: 25%;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#titleDiv {
+  width: 90%;
+}
+
+
+#eventIcon {
+  font-size: 25px;
+  margin-right: 10px;
 }
