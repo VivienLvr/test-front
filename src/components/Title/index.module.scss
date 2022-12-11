@@ -1,6 +1,16 @@
 .title{
   font-size: 26px;
-  font-weight:900;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.2;
   -moz-osx-font-smoothing: grayscale;
   margin:0;
+  font-weight: 500;
+  width: 80%;
+}
+
+.cover{
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-shadow: 0 0 11px rgba(33,33,33,0.5);
 }

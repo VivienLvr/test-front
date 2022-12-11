@@ -6,7 +6,7 @@ import css from "./index.module.scss";
 class Button extends Component {
   render() {
     return(
-      <button className={`${css.btn} btn ${'btn-' + this.props.type} ${'btn-' + this.props.size}`}>{this.props.children}</button>
+      <button className={`${css.btn} btn ${'btn-' + this.props.type} ${'btn-' + this.props.size}`} onClick={this.props.onClick}>{this.props.children}</button>
     )
   }
 }
